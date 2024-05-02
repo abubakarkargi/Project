@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="./Z-Resources/SVG/Monochrome/xbox.svg" type="image/x-icon">
+    <script src="Playground.js">
+                let animate = () => {
+            if(b.style.height === "0px"){
+                b.style.height = "40%"
+            }else{
+                b.style.height = "0px"
+            }
+        }
+    </script>
+</head>
+<body id="light">
+    <header>
+        <h1 id="head">&spades; 5hadow.net &spades;</h1>
+    </header>
+    <nav class="navigation-bar">
+        <button class="the-hamburger-menu-container" onclick="toggleSwitch()">
+            <img src="Z-Resources/SVG/Monochrome/discord-fill-svgrepo-com.svg" width="50px" height="50px" class="the-hamburger-menu" alt="The-hamburger-menu">
+        </button>
+        <ul class="navigation-items-container">
+            <a href="#" target="_self"><li class="highlight">Home</li></a>
+            <a href="Store/Store.html" target="_self"><li class="highlight-2">Store</li></a>
+            <a href="Gallery/Gallery.html" target="_self"><li class="highlight-2">Gallery</li></a>
+            <a href="Contact Me/Contact Me.html" target="_self"><li class="highlight-2">Contact Me</li></a>
+            <a href="About Me/About Me.html" target="_self"><li class="highlight-2">About Me</li></a>
+        </ul>
+        <span></span>
+    </nav>
+    <aside class="sidebar" id="Hide_This">
+        <ul class="sidebar-items-container">
+            <li><button onclick="backgroundSwitch()">Light/Dark Theme</button></li>
+            <li><button onclick="dynamicHead()">Dynamic Header</button></li>
+            <li><button onclick="screenOptimization()">Screen Optimization</button></li>
+            <li><button onclick="donate()">Donate / support</button></li>
+            <li class="last-item"><button onclick="closeSidebar()">Close Sidebar</button></li>
+        </ul>
+    </aside>
+    <p class="note">The JavaScript of the site is in the hamburger menu at the left end of the navigation bar and it is applied to every page</p>
+    <div class="side-by-side">
+        <p>
+            Welcome to 5HADOW.net, where the world of
+            games comes alive! Immerse yourself in a
+             captivating realm filled with thrilling
+              adventures, cutting-edge technology, and
+              endless entertainment. whether you're a 
+              seasoned gamer or a curious enthusiast,
+              our platform is your gateway to an 
+              extraordinary gaming experience.
+              Discover the latest releases, delve into
+               depth reviews, and connect with a vibrant 
+               community of fellow gamers who share your passion
+               for this immersive art form. Get ready to level up
+               and unlock a world of limitless possibilities with
+                5HADOW.net. let the gaming journey begin!
+        </p>
+        <div class="featured-game">
+            <h3>Most Featured Game</h3>
+            <img src="Z-Resources/Images/Home/Home_NBA 2K23.jpg" class="NBA" alt="">
+        </div>
+    </div>
+    <div class="middle">
+        <a href="Z-Resources/Blocked/blocked.html"><button class="btn btn1">Pre-Order</button></a>
+        <a href="Z-Resources/Blocked/blocked.html"><button class="btn btn2">Add to Cart</button></a>
+        <a href="Z-Resources/Blocked/blocked.html"><button class="btny btn3">Add to wish-list</button></a>
+        <a href="Z-Resources/Blocked/blocked.html"><button class="btny btn4">Remove from Cart</button></a>
+    </div>
+    <hr id="hr">
+    <footer class="footer">
+        <a href="https://web.facebook.com/victor.ucheze.92" target="_self">
+            <div>
+                <img src="Z-Resources/SVG/facebook.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://www.instagram.com/purpleacecard/" target="_self">
+            <div>
+                <img src="Z-Resources/SVG/instagram.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://wa.me/07014479072" target="_self">
+            <div>
+                <img src="Z-Resources/SVG/whatsapp.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://twitter.com/Purpleacecard" target="_self">
+            <div>
+                <img src="Z-Resources/SVG/twitter.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://discord.com/purpleacecard#1294">
+            <div>
+                <img src="Z-Resources/SVG/discord.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://www.twitch.tv/purpleacecard">
+            <div>
+                <img src="Z-Resources/SVG/twitch.svg" class="svg">
+            </div>
+        </a>
+    </footer>
+    <div class="end">
+        <span>&copy; Copyright Ucheze Victor™</span>
+    </div>
+</body>
+</html>

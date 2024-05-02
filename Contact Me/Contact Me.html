@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="../Z-Resources/SVG/Monochrome/xbox.svg" type="image/x-icon">
+    <script src="Script.js"></script>
+</head>
+
+<body id="light">
+    <header>
+        <h1 id="head">&spades; 5hadow.net &spades;</h1>
+    </header>
+    <nav class="navigation-bar">
+        <button class="the-hamburger-menu-container" onclick="toggleSwitch()">
+            <img src="../Z-Resources/SVG/Monochrome/discord-svgrepo-com (1).svg" width="50px" height="50px"
+                class="the-hamburger-menu" alt="The-hamburger-menu">
+        </button>
+        <ul class="navigation-items-container">
+            <a href="../Index.html" target="_self">
+                <li class="highlight-2">Home</li>
+            </a>
+            <a href="../Store/Store.html" target="_self">
+                <li class="highlight-2">Store</li>
+            </a>
+            <a href="../Gallery/Gallery.html" target="_self">
+                <li class="highlight-2">Gallery</li>
+            </a>
+            <a href="#" target="_self">
+                <li class="highlight">Contact Me</li>
+            </a>
+            <a href="../About Me/About Me.html" target="_self">
+                <li class="highlight-2">About Me</li>
+            </a>
+        </ul>
+        <span>
+        </span>
+    </nav>
+    <aside class="sidebar" id="Hide_This">
+        <ul class="sidebar-items-container">
+            <li><button onclick="backgroundSwitch()">Light/Dark Theme</button></li>
+            <li><button onclick="dynamicHead()">Dynamic Header</button></li>
+            <li><button onclick="screenOptimization()">Screen Optimization</button></li>
+            <li><button onclick="donate()">Donate / support</button></li>
+            <li class="last-item"><button onclick="closeSidebar()">Close Sidebar</button></li>
+        </ul>
+    </aside>
+    <section>
+        <form action="MicellaneousContactMe/SubmitContactMe.html" method="post">
+            <div class="form-name">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Type your name here" pattern="[a-zA-Z]">
+            </div>
+            <div class="form-email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Type your email here" pattern="[a-zA-Z0-9]+@[a-zA-Z]+\.(com|net|edu|ng|us|uk)">
+            </div>
+            <div class="form-student-id">
+                <label for="student-id">Student ID</label>
+                <input type="number" name="student-id" id="student-id" placeholder="Type your student ID here" pattern="[0-9]">
+            </div>
+            <div class="form-phone">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="Type your phone number here">
+            </div>
+            <div class="form-improvements">
+                <label for="improvements">Improvements</label>
+                <select name="improvements" id="improvements">
+                    <option value="default">Select an improvement (default)</option>
+                    <option value="home">Home</option>
+                    <option value="store">Store</option>
+                    <option value="gallery">Gallery</option>
+                    <option value="contact-me">Contact Me</option>
+                    <option value="about-me">About Me</option>
+                </select>
+            </div>
+            <div class="form-experience">
+                <div class="form-experience-header">
+                    <label for="experience">Experience Level</label>
+                </div>
+                <div class="form-experience-items">
+                    <input type="radio" name="experience" id="very-bad">
+                    <label for="very-bad">Very Bad</label>
+                    <input type="radio" name="experience" id="bad">
+                    <label for="bad">Bad</label>
+                    <input type="radio" name="experience" id="not-sure">
+                    <label for="not-sure">Not Sure</label>
+                    <input type="radio" name="experience" id="good">
+                    <label for="good">Good</label>
+                    <input type="radio" name="experience" id="very-good">
+                    <label for="very-good">Very Good</label>
+                </div>
+            </div>
+            <div class="form-comments">
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Type your comments here"></textarea>
+            </div>
+            <div class="form-submit">
+                <button class="submit btn btn1"><a href="MicellaneousContactMe/SubmitContactMe.html" class="reel" target="_self">Submit</a></button>
+            </div>
+        </form>
+    </section>
+    <hr>
+    <footer class="footer">
+        <a href="https://web.facebook.com/victor.ucheze.92" target="_self">
+            <div>
+                <img src="../Z-Resources/SVG/facebook.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://www.instagram.com/purpleacecard/" target="_self">
+            <div>
+                <img src="../Z-Resources/SVG/instagram.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://wa.me/07014479072" target="_self">
+            <div>
+                <img src="../Z-Resources/SVG/whatsapp.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://twitter.com/Purpleacecard" target="_self">
+            <div>
+                <img src="../Z-Resources/SVG/twitter.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://discord.com/purpleacecard#1294">
+            <div>
+                <img src="../Z-Resources/SVG/discord.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://www.twitch.tv/purpleacecard">
+            <div>
+                <img src="../Z-Resources/SVG/twitch.svg" class="svg">
+            </div>
+        </a>
+    </footer>
+    <div class="end">
+        <p>&copy; Copyright Ucheze Victor™</p>
+    </div>
+</body>
+
+</html>

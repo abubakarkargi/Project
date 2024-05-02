@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Completed</title>
+    <style>
+        body{
+            background: rgb(70, 255, 200);
+            font-family: Arial;
+            margin: 0px;
+        }
+        h1{
+            display: flex;
+            justify-content: space-between;
+            margin: 0px;
+            padding: 10px 30px;
+            background-color: black;
+            color: white;
+        }
+        p{
+            color: rgb(64, 64, 64);
+            padding: 50px 70px;
+            text-align: justify;
+            letter-spacing: 0.1px;
+            line-height: 40px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        button{
+            position: relative;
+            width: 300px;
+            height: 40px;
+            font-weight: bold;
+            border: 3px solid black;
+            background: none;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        button:hover{
+            color: white;
+        }
+        button::before{
+            content: "";
+            position: absolute;
+            background-color: rgb(17, 66, 172);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: scaleX(0);
+            transform-origin: 0 0;
+            transition: 0.5s;
+            z-index: -1;
+            transition-timing-function: cubic-bezier(0.6, 1.5, 0.4, 0.7);
+        }
+        button:hover::before{
+            transform: scaleX(1);
+        }
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        .one{
+            color: rgb(239, 239, 239);
+            text-shadow: 5px 5px 4px black;
+        }
+        .two{
+            color: blue;
+            text-shadow: 0px 0px 20px blue;
+        }
+        .three{
+            color: red;
+            text-shadow: 0px 0px 20px rgb(255, 6, 6);
+        }
+        .four{
+            color: red;
+            text-shadow: 0px 0px 20px red;
+        }
+        .five{
+            color: rgb(90, 57, 116);
+            display: block;
+            text-align: center;
+            text-shadow: 4px 4px 4px blueviolet;
+        }
+        .author{
+            font-size: 20px;
+            font-family: cursive;
+            transition: 0.5s;
+        }
+        .author:hover{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1><span>Form Completed</span><span class="author">By: Ucheze Victor</span></h1>
+    <p>
+        <span class="one">Thanks for Filling the form,</span> your personal information is kept <span class="two">safe and secured</span> with us, we do not support sharing of
+        information with external constraints, please ensure that <span class="three">you do not disclose</span> any of these details or information to
+        anyone to avoid <span class="four">Privacy violation</span> we will not in any circumstance ask you for your password as we take our part in
+        your privacy protection please also ensure to do the same <span class="five">Thank you.</span>
+    </p>
+    <div>
+        <a href="../../Index.html"><button class="Btn">Back to Home</button></a>
+    </div>
+</body>
+</html>

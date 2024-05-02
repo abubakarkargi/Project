@@ -1,0 +1,293 @@
+body {
+  font-family: Arial;
+  background-color: rgb(55, 55, 55);
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  overflow-x: hidden;
+}
+h1 {
+  background-color: Black;
+  text-align: center;
+  margin: 0px;
+  padding: 8px;
+}
+h2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin: 0px;
+  padding: 10px 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+hr {
+  margin: 100px;
+  background-color: white;
+  height: 2px;
+}
+.the-hamburger-menu-container {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  align-items: center;
+  border: none;
+  background: none;
+}
+span {
+  width: 100px;
+}
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  justify-content: space-between;
+  top: 0px;
+  border-bottom: 2px solid black;
+  background-color: rgb(70, 255, 200);
+  color: white;
+  z-index: 100;
+}
+.navigation-items-container {
+  display: flex;
+  list-style-type: none;
+  flex: 1;
+  font-size: 17px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.navigation-items-container li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  text-align: center;
+  height: 52px;
+}
+.highlight {
+  background-color: black;
+  color: rgb(70, 255, 200);
+  transition: 0.2s;
+}
+.highlight-2 {
+  transition: 0.2s;
+}
+.highlight:hover {
+  background-color: rgb(31, 31, 31);
+}
+.highlight-2:hover {
+  background-color: rgb(105, 168, 147);
+}
+aside {
+  display: none;
+  position: fixed;
+  z-index: 2;
+}
+aside button {
+  border: none;
+  background: none;
+  height: 60px;
+  font-size: 20px;
+}
+aside li:hover {
+  background-color: rgb(200, 255, 237);
+}
+aside li {
+  border-bottom: 1.5px solid black;
+  margin-right: 50px;
+}
+aside li:nth-child(5) {
+  border-bottom: none;
+}
+.sidebar-items-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: rgb(70, 255, 200);
+  min-width: 250px;
+  max-width: 252px;
+  border-top: 5px solid rgb(0, 165, 72);
+  border-right: 5px solid rgb(0, 120, 84);
+  border-bottom: 5px solid rgb(0, 69, 48);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1000px;
+  margin: 0px 50px;
+}
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  background-color: rgb(70, 255, 200);
+  flex: 1;
+  color: black;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+}
+input {
+  height: 36px;
+  flex: 8;
+  border: none;
+  padding: 5px;
+}
+input:hover {
+  background-color: rgb(210, 253, 240);
+}
+select {
+  flex: 8;
+  border: none;
+}
+select:hover {
+  background-color: rgb(210, 253, 240);
+}
+.form-name {
+  display: flex;
+  margin-top: 40px;
+  border: 2px solid black;
+}
+.form-email {
+  display: flex;
+  border: 2px solid black;
+}
+.form-student-id {
+  display: flex;
+  border: 2px solid black;
+}
+.form-phone {
+  display: flex;
+  border: 2px solid black;
+}
+.form-improvements {
+  display: flex;
+  border: 2px solid black;
+}
+.form-experience {
+  border: 2px solid black;
+}
+.form-experience-header {
+  border-bottom: 2px solid black;
+}
+.form-experience-header label {
+  border-right: none;
+}
+.form-experience-items {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 20px;
+  accent-color: rgb(110, 255, 192);
+}
+.form-experience-items label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border-right: none;
+  flex: 9;
+}
+.form-experience-items input {
+  flex: 1;
+}
+.form-comments {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  height: 210px;
+}
+.form-comments label {
+  border-right: none;
+  border-bottom: 2px solid black;
+  flex: 1;
+}
+textarea {
+  flex: 4;
+  font-size: 25px;
+}
+textarea:hover {
+  background-color: rgb(210, 253, 240);
+}
+.form-submit {
+  display: flex;
+}
+.submit {
+  width: 100%;
+  border: none;
+  height: 40px;
+  background-color: rgb(70, 255, 200);
+  color: black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+.btn {
+  background: none;
+  color: rgb(70, 255, 200);
+  border: 2px solid #000;
+  font-family: Arial;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+}
+.btn:hover {
+  color: black;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(70, 255, 200);
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+.btn1::before {
+  transform: scaleX(0);
+}
+.btn1:hover::before {
+  transform: scaleX(1);
+}
+.reel {
+  color: rgb(110, 255, 192);
+  transition: 1s;
+}
+button:hover .reel {
+  color: black;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+footer img {
+  width: 80px;
+}
+.end {
+  display: block;
+  text-align: center;
+  margin: 40px 0px;
+}
+.svg {
+  display: block;
+  opacity: 1;
+}
+.svg:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

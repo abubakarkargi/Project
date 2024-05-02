@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="../Z-Resources/SVG/Monochrome/xbox.svg" type="image/x-icon">
+    <script src="Script.js"></script>
+</head>
+<body id="light">
+    <header>
+        <h1 id="head">&spades; 5hadow.net &spades;</h1>
+    </header>
+    <nav class="navigation-bar">
+        <button class="the-hamburger-menu-container" onclick="toggleSwitch()">
+            <img src="../Z-Resources/SVG/Monochrome/discord-svgrepo-com (1).svg" width="50px" height="50px" class="the-hamburger-menu" alt="The-hamburger-menu">
+        </button>
+        <ul class="navigation-items-container">
+            <a href="../Index.html" target="_self"><li class="highlight-2">Home</li></a>
+            <a href="#" target="_self"><li class="highlight">Store</li></a>
+            <a href="../Gallery/Gallery.html" target="_self"><li class="highlight-2">Gallery</li></a>
+            <a href="../Contact Me/Contact Me.html" target="_self"><li class="highlight-2">Contact Me</li></a>
+            <a href="../About Me/About Me.html" target="_self"><li class="highlight-2">About Me</li></a>
+        </ul>
+        <span class="head-span"></span>
+    </nav>
+    <aside class="sidebar" id="Hide_This">
+        <ul class="sidebar-items-container">
+            <li><button onclick="backgroundSwitch()">Light/Dark Theme</button></li>
+            <li><button onclick="dynamicHead()">Dynamic Header</button></li>
+            <li><button onclick="screenOptimization()">Screen Optimization</button></li>
+            <li><button onclick="donate()">Donate / support</button></li>
+            <li class="last-item"><button onclick="closeSidebar()">Close Sidebar</button></li>
+        </ul>
+    </aside>
+    <section class="featured">
+        <div class="featured-heading-container">
+            <h2><span>&num; 1 Featured</span> <span>----------</span> <span>Apex Ledgends</span> <span>----------</span> <span>~EA Sports~</span></h2>
+        </div>
+        <div class="featured-image-container">
+            <img src="../Z-Resources/Images/Store/Apex Legends.jpg" class="featured-image" alt="">
+        </div>
+        <div class="featured-button-container">
+            <button class="Apex-Legends-button">Pre-order Apex Legends Now</button>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="featured-heading-container">
+            <h2> <span>&num; 2 Featured</span> <span>----------</span> <span>Fortnite</span> <span>----------</span> <span>~Epic Games~</span></h2>
+        </div>
+        <div class="featured-image-container">
+            <img src="../Z-Resources/Images/Store/Fortnite.jpg" class="featured-image" alt="">
+        </div>
+        <div class="featured-button-container">
+            <button class="Fortnite-button">Pre-Order Fortnite Now</button>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="featured-heading-container">
+            <h2> <span>&num; 3 Featured</span> <span>----------</span> <span>Player Unknown's Battle Ground</span> <span>----------</span> <span>~Tencent~</span></h2>
+        </div>
+        <div class="featured-image-container">
+            <img src="../Z-Resources/Images/Store/PUB-G.jpg" class="featured-image" alt="">
+        </div>
+        <div class="featured-button-container">
+            <button class="PUB-G-button">Pre-Order PUB-G Now</button>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="featured-heading-container">
+            <h2> <span>&num; 4 Featured</span> <span>----------</span> <span>Assasin's Creed Valhalla</span> <span>----------</span> <span>~Ubisoft~</span></h2>
+        </div>
+        <div class="featured-image-container">
+            <img src="../Z-Resources/Images/Store/Assasins Creed Valhalla.jpg" class="featured-image" alt="">
+        </div>
+        <div class="featured-button-container">
+            <button class="Assasins-Creed-Valhalla-button">Pre-Order Assasin's Creed Valhalla Now</button>
+        </div>
+    </section>
+    <section class="featured-problem">
+        <div class="featured-heading-container">
+            <h2> <span>&num; 5 Featured</span> <span>----------</span> <span>Call of Duty: Black Ops Cold War</span> <span>----------</span> <span>~Activision~</span></h2>
+        </div>
+        <div class="featured-image-container">
+            <img src="../Z-Resources/Images/Store/Call of Duty Black Ops Cold War.jpg" class="featured-image" alt="">
+        </div>
+        <div class="featured-button-container">
+            <button class="Call-of-Duty-Black-Ops_Cold-War-button">Pre-Order Call Of Duty Black-Ops Cold War Now</button>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="featured-heading-container">
+            <h2> <span>&num; 6 Featured</span> <span>----------</span> <span>Watch Dogs: Legion</span> <span>----------</span> <span>~Ubisoft~</span></h2>
+        </div>
+        <div class="featured-image-container">
+            <img src="../Z-Resources/Images/Store/Watch Dogs Legion.jpg" class="featured-image" alt="">
+        </div>
+        <div class="featured-button-container">
+            <button class="Watch-Dogs-Legion-button">Pre-Order Watch Dogs: Legion Now</button>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="featured-heading-container">
+            <h2> <span>&num; 7 Featured</span> <span>----------</span> <span>Immortals Fenyx Rising</span> <span>----------</span> <span>~Ubisoft~</span></h2>
+        </div>
+        <div class="featured-image-container">
+            <img src="../Z-Resources/Images/Store/Immortals Fenyx Rising.jpg" class="featured-image" alt="">
+        </div>
+        <div class="featured-button-container">
+            <button class="Immortals-Fenyx-Rising-button">Pre-Order Immortals Fenyx Rising Now</button>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="featured-heading-container">
+            <h2> <span>&num; 8 Featured</span> <span>----------</span> <span>Brawlhalla</span> <span>----------</span> <span>~Ubisoft~</span></h2>
+        </div>
+        <div class="featured-image-container">
+            <img src="../Z-Resources/Images/Store/Brawlhalla.jpg" class="featured-image" alt="">
+        </div>
+        <div class="featured-button-container">
+            <button class="Brawlhalla-button">Pre-Order Brawlhalla Now</button>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="featured-heading-container">
+            <h2> <span>&num; 9 Featured</span> <span>----------</span> <span>Cyberpunk 2077</span> <span>----------</span> <span>~CD projekt RED~</span></h2>
+        </div>
+        <div class="featured-image-container">
+            <img src="../Z-Resources/Images/Store/Cyberpunk.jpg" class="featured-image" alt="">
+        </div>
+        <div class="featured-button-container">
+            <button class="Cyberpunk-button">Pre-Order Cyberpunk Now</button>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="featured-heading-container">
+            <h2> <span>&num; 10 Featured</span> <span>----------</span> <span>Creative Destruction</span> <span>----------</span> <span>~Netease~</span></h2>
+        </div>
+        <div class="featured-image-container">
+            <img src="../Z-Resources/Images/Store/Creative Destruction.jpg" class="featured-image" alt="">
+        </div>
+        <div class="featured-button-container">
+            <button class="Creative-Destruction-button">Pre-Order Creative Destruction Now</button>
+        </div>
+    </section>
+    <hr>
+    <footer class="footer">
+        <a href="https://web.facebook.com/victor.ucheze.92" target="_self">
+            <div>
+                <img src="../Z-Resources/SVG/facebook.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://www.instagram.com/purpleacecard/" target="_self">
+            <div>
+                <img src="../Z-Resources/SVG/instagram.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://wa.me/07014479072" target="_self">
+            <div>
+                <img src="../Z-Resources/SVG/whatsapp.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://twitter.com/Purpleacecard" target="_self">
+            <div>
+                <img src="../Z-Resources/SVG/twitter.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://discord.com/purpleacecard#1294">
+            <div>
+                <img src="../Z-Resources/SVG/discord.svg" class="svg">
+            </div>
+        </a>
+        <a href="https://www.twitch.tv/purpleacecard">
+            <div>
+                <img src="../Z-Resources/SVG/twitch.svg" class="svg">
+            </div>
+        </a>
+    </footer>
+    <div class="end">
+        <p>&copy; Copyright Ucheze Victor™</p>
+    </div>
+</body>
+</html>
